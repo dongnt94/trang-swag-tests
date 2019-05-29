@@ -55,7 +55,7 @@ public class SwagLabsTest {
     @BeforeClass
     public void beforeClass() {
         baseUrL = "https://www.saucedemo.com/";
-        System.setProperty("webdriver.chrome.driver", "/Users/lubaby/Documents/Selenium/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "driver/chromedriver-mac");
         driver = new ChromeDriver();
         wait = new WebDriverWait(driver, 10);
         login = new LoginPage(driver);
